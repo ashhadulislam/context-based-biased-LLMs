@@ -1,0 +1,9 @@
+faiss-gpu==1.7.2
+sentence-transformers==3.0.1
+torch==2.2.0
+torchaudio==2.2.0
+torchvision==0.17.0
+pandas==2.2.1
+numpy==1.26.4
+ollama==0.1.7
+requests==2.31.0
