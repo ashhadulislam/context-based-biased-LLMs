@@ -80,6 +80,7 @@ This project showcases the **AI for Palestine** initiative, which uses CB-LLMs t
 - **Dr. Samir Brahim Belhaouari**
 
 - **Dr. Mowafa Househ**  
+
 Information & Computing Technology  
 College of Science and Engineering  
 Hamad Bin Khalifa University
