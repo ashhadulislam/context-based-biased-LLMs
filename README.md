@@ -72,6 +72,14 @@ This project showcases the **AI for Palestine** initiative, which uses CB-LLMs t
 - **Paraphrasing** to enhance query diversity and information retrieval.
 - **Meta Prompting** for precise, contextually rich responses.
 
+## Detailed Architecture
+
+![Architecture Data Flow](https://raw.githubusercontent.com/ashhadulislam/context-based-biased-LLMs/refs/heads/main/architecture_data_flow.jpeg)
+
+The figure illustrates the end-to-end process of a Retrieval-Augmented Generation (RAG) system designed to generate accurate and contextually rich answers. The process begins with embeddings, structured into Voronoi clusters for efficient search and retrieval. Upon receiving a user query, the system generates multiple paraphrased versions of the query using a Language Model (LLM) for paraphrasing, enhancing the breadth of the search. Each paraphrased query is used to retrieve the top k-nearest chunks of relevant information from the optimized data store.
+
+The search results are concatenated and shuffled randomly to avoid bias and ensure diverse context inclusion. The results are then cropped to fit within the LLM's context window. A meta prompt is constructed, which combines the search results (now the context), a specific persona for the answer giver, and instructions for the LLM, along with the original user query. The final concatenated meta prompt is fed into the LLM, which then generates a precise answer based on the given context, query, and persona. The workflow ensures an optimized and nuanced approach to query answering by leveraging paraphrasing, clustering, and a customized prompt generation mechanism.
+
 
 ## Contributors
 
