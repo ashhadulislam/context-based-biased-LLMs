@@ -33,12 +33,41 @@ This project showcases the **AI for Palestine** initiative, which uses CB-LLMs t
 - **Paraphrasing** to enhance query diversity and information retrieval.
 - **Meta Prompting** for precise, contextually rich responses.
 
+## Prerequisite
+
+1. **Install Ollama**:
+   - You need to have **Ollama** pre-installed. Follow the instructions provided [here](https://ollama.com/download).
+
+2. **Download Source Data**:
+   - Download the source data and embeddings files from Google Drive [here](https://drive.google.com/drive/folders/1N34qKBTH-7HzwpzmUzuGUzl_r44FIxOE?usp=sharing).
+   - Ensure you have the following two files in the same directory as this code:
+     - `embedding_palBAward_palChronArticles.pkl`
+     - `palBookAwards_palChron_elInitfada.csv`
+
+3. **Faiss Installation**:
+   - If you have a GPU, install `faiss-gpu`, otherwise install the CPU version:
+     ```bash
+     # For GPU
+     pip install faiss-gpu
+     # For CPU
+     pip install faiss-cpu
+     ```
+
 ## How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/context-based-biased-LLMs.git
    cd context-based-biased-LLMs
    ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requ_minimized.txt
+   ```
+
+3. Ensure the required files from Google Drive are in place.
+
+4. Run the example script in CodeBaseForGithub.ipynb
 
 ## Contributors
 
