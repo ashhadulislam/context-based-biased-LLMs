@@ -83,10 +83,10 @@ The search results are concatenated and shuffled randomly to avoid bias and ensu
 
 ## Contributors
 
-- **Ashhadul Islam**  
+- **Dr. Ashhadul Islam**  
   Email: [asislam@hbku.edu.qa](mailto:asislam@hbku.edu.qa), [ashhadulislam@gmail.com](mailto:ashhadulislam@gmail.com)
   
-- **Hurmat Ali Shah**  
+- **Dr. Hurmat Ali Shah**  
   Email: [hshah@hbku.edu.qa](mailto:hshah@hbku.edu.qa)
 
 - **Dr. Samir Brahim Belhaouari**
